@@ -7,7 +7,8 @@
 
     background-image: url("../img/bg-sky.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top center;
+    background-attachment: fixed;
 
     color: var(--normal-text);
 }
@@ -21,49 +22,67 @@ a:hover {
 }
 
 a:visited {
-    color: var(--visited-link)
+    color: var(--link)
 }
 
 body {
     width: 1000px;
     background-color: var(--background);
     justify-content: center;
-    margin: auto;
+    margin: 0 auto;
     padding: 10px;
 }
 
 .zahlavi {
     padding: 5px;
-    justify-content: center;
-    margin: auto;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+    }
 }
 
 header {
+    display:flex;
     justify-content: center;
-    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto 20px;
 }
 
 header h1 {
     display: inline;
     font-size: 5em;
-    margin: auto;
+    margin: auto auto auto 0.1em;
+    white-space: nowrap;
 }
 
 header img {
     height: 5em;
-    margin: auto;
+    margin-right: 0.2em;
+    margin-left: auto;
 }
 
 nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
     background-color: var(--visited-link);
+    padding: 2px
 }
 nav a {
     width: auto;
     font-size: 1.2em;
-    margin: 0.25em auto;
+    margin: 0.2em;
+    padding: 2px 30px;
     background-color: hsla(218, 100%, 18%, 1);
+    text-decoration: none;
+    flex: 1;
+}
+
+nav a:hover {
+    background-color: hsla(218, 100%, 15%, 1);
 }
 
 footer {
@@ -72,4 +91,8 @@ footer {
     p {
         margin: auto;
     }
+}
+
+hr {
+    margin-top: 50px;
 }
