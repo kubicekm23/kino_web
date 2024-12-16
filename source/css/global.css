@@ -2,12 +2,13 @@
 
 
 :root {
-    --background: hsla(226, 60%, 10%, 1);
-    --visited-link: hsla(218, 100%, 16%, 1);
-    --hover-link: hsla(209, 95%, 24%, 1);
-    --link: hsla(193, 80%, 35%, 1);
-    --normal-text: hsla(20, 60%, 99%, 1);
+    --background: #1F2933; /* Dark slate background */
+    --visited-link: #62fff1; /* Soft teal for visited links */
+    --hover-link: #FF6B6B; /* Vibrant coral for hover states */
+    --link: #38B2AC; /* Calming turquoise for primary links */
+    --normal-text: #E8E8E8; /* Light gray for text */
 
+    background-color: #020d17;
     background-image: url("../img/bg-sky.jpg");
     background-repeat: no-repeat;
     background-position: top center;
@@ -25,7 +26,7 @@ a:hover {
 }
 
 a:visited {
-    color: var(--link)
+    color: var(--visited-link)
 }
 
 body {
@@ -88,21 +89,25 @@ nav {
     justify-content: space-around;
     flex-wrap: nowrap;
     flex-direction: row;
-    background-color: var(--visited-link);
-    padding: 2px
+    background-color: #3B4351; /* Subtle dark gray for navigation */
+    padding: 2px;
+    border-radius: 3px;
 }
 nav a {
     width: auto;
     font-size: 1.2em;
     margin: 0.2em;
     padding: 2px 30px;
-    background-color: hsla(218, 100%, 18%, 1);
+    background-color: var(--link); /* Teal background for links */
+    color: #1F2933; /* Dark text for contrast */
     text-decoration: none;
     flex: 1;
+    border-radius: 5px;
 }
 
 nav a:hover {
-    background-color: hsla(218, 100%, 15%, 1);
+    background-color: var(--hover-link); /* Orange hover */
+    color: #1F2933; /* Maintain dark contrast text */
 }
 
 footer {
@@ -117,4 +122,5 @@ footer {
 
 hr {
     margin-top: 50px;
+    border: 1px solid var(--link); /* Teal horizontal line */
 }
