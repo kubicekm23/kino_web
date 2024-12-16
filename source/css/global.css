@@ -46,11 +46,12 @@ header {
 header h1 {
     display: inline;
     font-size: 5em;
+    margin: auto;
 }
 
 header img {
     height: 5em;
-    vertical-align: center;
+    margin: auto;
 }
 
 nav {
@@ -63,4 +64,12 @@ nav a {
     font-size: 1.2em;
     margin: 0.25em auto;
     background-color: hsla(218, 100%, 18%, 1);
+}
+
+footer {
+    display: flex;
+
+    p {
+        margin: auto;
+    }
 }
