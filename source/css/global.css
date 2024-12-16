@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;700&display=swap');
+
+
 :root {
     --background: hsla(226, 60%, 10%, 1);
     --visited-link: hsla(218, 100%, 16%, 1);
@@ -31,6 +34,17 @@ body {
     justify-content: center;
     margin: 0 auto;
     padding: 10px;
+
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+
+    h2, h3, h4, h5, h6 {
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
 }
 
 .zahlavi {
@@ -54,6 +68,13 @@ header h1 {
     font-size: 5em;
     margin: auto auto auto 0.1em;
     white-space: nowrap;
+
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+            "wdth" 100;
 }
 
 header img {
