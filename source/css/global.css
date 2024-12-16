@@ -46,7 +46,6 @@ header {
     display:flex;
     justify-content: center;
     align-items: center;
-    justify-content: center;
     margin: auto auto 20px;
 }
 
@@ -86,10 +85,12 @@ nav a:hover {
 }
 
 footer {
-    display: flex;
+    display: block;
+    text-align: center;
 
     p {
         margin: auto;
+        white-space: nowrap;
     }
 }
 
