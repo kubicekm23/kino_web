@@ -1,0 +1,60 @@
+:root {
+    --background: hsla(226, 60%, 10%, 1);
+    --visited-link: hsla(218, 100%, 16%, 1);
+    --hover-link: hsla(209, 95%, 24%, 1);
+    --link: hsla(193, 80%, 35%, 1);
+    --normal-text: hsla(20, 60%, 99%, 1);
+
+    background-image: url("../img/bg-sky.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    color: var(--normal-text);
+}
+
+a {
+    color: var(--link);
+}
+
+a:hover {
+    color: var(--hover-link)
+}
+
+a:visited {
+    color: var(--visited-link)
+}
+
+body {
+    width: 1000px;
+    background-color: var(--background);
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.zahlavi {
+    padding: 5px;
+    justify-content: center;
+    margin: auto;
+}
+
+header {
+    justify-content: center;
+    margin: auto;
+}
+
+header h1 {
+    display: inline;
+    font-size: 5em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a {
+    width: auto;
+    font-size: 1.2em;
+    margin: 0.25em auto;
+    background-color: hsla(218, 100%, 18%, 1);
+}
