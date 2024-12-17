@@ -110,24 +110,19 @@ nav a:hover {
     color: #1F2933; /* Maintain dark contrast text */
 }
 
-#nyni-v-kine {
-    h2 {
-        text-align: center;
-        font-size: 2em;
-    }
+#nyni-v-kine h2 {
+    text-align: center;
+    font-size: 2em;
+}
 
-    img {
-        /* TODO: zarovnání na střed */
-    }
+#nyni-v-kine .velky-film img {
+    aspect-ratio: 3/4;
+    object-fit: cover;
+}
 
-    .velky-film {
-        width: 998px;
-    }
-
-    .maly-film {
-        height: 467px;
-        aspect-ratio: 9/13;
-    }
+#nyni-v-kine .maly-film img {
+    aspect-ratio: 4/3;
+    object-fit: cover;
 }
 
 footer {
