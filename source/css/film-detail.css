@@ -1,0 +1,13 @@
+.film-nadpis {
+    color: var(--visited-link);
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.span-typ {
+    color: var(--visited-link);
+}
+
+.span-obsah {
+    color: var(--link);
+}
