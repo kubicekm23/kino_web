@@ -11,3 +11,19 @@
 .span-obsah {
     color: var(--link);
 }
+
+.trailer {
+}
+
+.trailer iframe {
+    width: 950px;
+    aspect-ratio: 16/9;
+}
+
+.galerie {
+
+}
+
+.galerie img {
+
+}
