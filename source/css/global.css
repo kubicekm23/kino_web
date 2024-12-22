@@ -110,6 +110,16 @@ nav a:hover {
     color: #1F2933; /* Maintain dark contrast text */
 }
 
+#nyni-v-kine {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2px;
+    border-radius: 3px;
+    gap: 3px 3px;
+}
+
 #nyni-v-kine h2 {
     /* TODO: nejsou uprostred tak jak by meli byt */
     text-align: center;
