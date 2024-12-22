@@ -114,21 +114,23 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 2px;
     border-radius: 3px;
-    gap: 3px 3px;
+    gap: 5px 5px
 }
 
 #nyni-v-kine h2 {
     /* TODO: nejsou uprostred tak jak by meli byt */
     text-align: center;
     font-size: 2em;
+    width: 100%;
 }
 
 #nyni-v-kine .velky-film img {
     aspect-ratio: 3/4;
     object-fit: cover;
+    width: 100%;
 }
 
 #nyni-v-kine .maly-film img {
