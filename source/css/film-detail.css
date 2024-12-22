@@ -24,6 +24,8 @@
 }
 
 .trailer {
+    display: flex;
+    justify-content: center;
 }
 
 .trailer iframe {
