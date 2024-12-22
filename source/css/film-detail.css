@@ -4,6 +4,17 @@
     font-weight: bold;
 }
 
+.obsah {
+    h3 {
+        font-size: x-large;
+        font-weight: bold;
+        color: var(--visited-link)
+    }
+    p {
+        color: var(--link)
+    }
+}
+
 .span-typ {
     color: var(--visited-link);
 }
@@ -21,12 +32,16 @@
 }
 
 .galerie {
-    width: 980px;
-    aspect-ratio: 16/9;
-    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2px;
+    border-radius: 3px;
 }
 
 .galerie img {
     width: 485px;
     aspect-ratio: 16/9;
+    flex: 1;
 }
