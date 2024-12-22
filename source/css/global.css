@@ -111,6 +111,7 @@ nav a:hover {
 }
 
 #nyni-v-kine h2 {
+    /* TODO: nejsou uprostred tak jak by meli byt */
     text-align: center;
     font-size: 2em;
 }
