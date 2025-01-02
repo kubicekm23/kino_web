@@ -4,18 +4,21 @@
     font-weight: bold;
 }
 
-.obsah {
-    h3 {
+.obsah h3 {
         font-size: x-large;
         font-weight: bold;
         color: var(--visited-link)
     }
-    p {
-        color: var(--link)
-    }
+
+.obsah p {
+    color: var(--link)
 }
 
 .span-typ {
+    color: var(--visited-link);
+}
+
+div article h2 {
     color: var(--visited-link);
 }
 
