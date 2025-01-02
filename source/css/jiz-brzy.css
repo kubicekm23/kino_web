@@ -1,0 +1,13 @@
+.brzy-film {
+    display: block;
+}
+
+.brzy-film div img {
+    width: 150px;
+}
+
+.brzy-film div {
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+}
